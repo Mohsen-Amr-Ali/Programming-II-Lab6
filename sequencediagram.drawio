@@ -1,0 +1,156 @@
+<mxfile host="app.diagrams.net" agent="Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/141.0.0.0 Safari/537.36" version="28.2.8">
+  <diagram name="Page-1" id="nuvSP_piBH0Z5xOsc6oJ">
+    <mxGraphModel dx="1042" dy="527" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="gfIH29d5WbHKcfMr61hu-5" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Database&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="270" y="20" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-13" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="gfIH29d5WbHKcfMr61hu-5" vertex="1">
+          <mxGeometry x="45" y="50" width="10" height="450" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-30" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;calculate score and save it&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=open;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;endFill=0;" parent="gfIH29d5WbHKcfMr61hu-5" target="gfIH29d5WbHKcfMr61hu-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="300" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="300" />
+              <mxPoint x="90" y="320" />
+            </Array>
+            <mxPoint x="60" y="330" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-46" value="" style="html=1;align=left;spacingLeft=2;endArrow=open;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;endFill=0;" parent="gfIH29d5WbHKcfMr61hu-5" source="gfIH29d5WbHKcfMr61hu-13" target="gfIH29d5WbHKcfMr61hu-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="60" y="390" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="390" />
+              <mxPoint x="90" y="410" />
+            </Array>
+            <mxPoint x="60" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-47" value="update student quiz progress" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];dashed=1;" parent="gfIH29d5WbHKcfMr61hu-46" vertex="1" connectable="0">
+          <mxGeometry x="-0.0588" relative="1" as="geometry">
+            <mxPoint x="80" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-6" value="&lt;span style=&quot;font-size: 16px;&quot;&gt;Quiz&lt;/span&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="470" y="20" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-20" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};fillColor=#a0522d;strokeColor=#6D1F00;fontColor=#ffffff;" parent="gfIH29d5WbHKcfMr61hu-6" vertex="1">
+          <mxGeometry x="45" y="100" width="10" height="160" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-26" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;retrieve questions&lt;/font&gt;" style="html=1;align=left;spacingLeft=2;endArrow=open;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;endFill=0;" parent="gfIH29d5WbHKcfMr61hu-6" target="gfIH29d5WbHKcfMr61hu-20" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="180" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="90" y="180" />
+              <mxPoint x="90" y="200" />
+            </Array>
+            <mxPoint x="60" y="210" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-8" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Student&lt;/font&gt;" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;" parent="1" vertex="1">
+          <mxGeometry x="60" y="20" width="40" height="70" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-14" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;view quizzes&lt;/font&gt;" style="html=1;verticalAlign=bottom;startArrow=oval;endArrow=open;startSize=8;curved=0;rounded=0;entryX=0;entryY=0;entryDx=0;entryDy=5;endFill=0;" parent="1" target="gfIH29d5WbHKcfMr61hu-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="120" y="75" as="sourcePoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-19" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;choose quiz&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="gfIH29d5WbHKcfMr61hu-13" target="gfIH29d5WbHKcfMr61hu-6" edge="1">
+          <mxGeometry x="0.0554" width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="110" as="sourcePoint" />
+            <mxPoint x="410" y="110" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="440" y="120" />
+            </Array>
+            <mxPoint as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-23" value="loop" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="140" width="800" height="140" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-28" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;process answer&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;dashed=1;endSize=8;curved=0;rounded=0;" parent="1" target="gfIH29d5WbHKcfMr61hu-13" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="515" y="240" as="sourcePoint" />
+            <mxPoint x="330" y="240" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-31" value="alt" style="shape=umlFrame;whiteSpace=wrap;html=1;pointerEvents=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="370" width="800" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-32" value="" style="line;strokeWidth=1;fillColor=none;align=left;verticalAlign=middle;spacingTop=-1;spacingLeft=3;spacingRight=3;rotatable=0;labelPosition=right;points=[];portConstraint=eastwest;strokeColor=inherit;dashed=1;" parent="1" vertex="1">
+          <mxGeometry x="120" y="436" width="800" height="8" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-35" value="&lt;font style=&quot;font-size: 16px;&quot;&gt;Display Results&lt;/font&gt;" style="shape=umlLifeline;perimeter=lifelinePerimeter;whiteSpace=wrap;html=1;container=1;dropTarget=0;collapsible=0;recursiveResize=0;outlineConnect=0;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};" parent="1" vertex="1">
+          <mxGeometry x="670" y="20" width="100" height="540" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-36" value="" style="html=1;points=[[0,0,0,0,5],[0,1,0,0,-5],[1,0,0,0,5],[1,1,0,0,-5]];perimeter=orthogonalPerimeter;outlineConnect=0;targetShapes=umlLifeline;portConstraint=eastwest;newEdgeStyle={&quot;curved&quot;:0,&quot;rounded&quot;:0};dashed=1;fillColor=#a0522d;fontColor=#ffffff;strokeColor=#6D1F00;" parent="gfIH29d5WbHKcfMr61hu-35" vertex="1">
+          <mxGeometry x="45" y="350" width="10" height="150" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-39" value="" style="html=1;align=left;spacingLeft=2;endArrow=open;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;endFill=0;" parent="gfIH29d5WbHKcfMr61hu-35" target="gfIH29d5WbHKcfMr61hu-36" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="380" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="85" y="380" />
+              <mxPoint x="85" y="400" />
+            </Array>
+            <mxPoint x="60" y="410" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-40" value="display &quot;Congratulations!&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];dashed=1;" parent="gfIH29d5WbHKcfMr61hu-39" vertex="1" connectable="0">
+          <mxGeometry x="-0.0588" relative="1" as="geometry">
+            <mxPoint x="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-42" value="" style="html=1;align=left;spacingLeft=2;endArrow=open;rounded=0;edgeStyle=orthogonalEdgeStyle;curved=0;rounded=0;endFill=0;" parent="gfIH29d5WbHKcfMr61hu-35" edge="1">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="55" y="460" as="sourcePoint" />
+            <Array as="points">
+              <mxPoint x="80" y="460" />
+              <mxPoint x="80" y="480" />
+            </Array>
+            <mxPoint x="55" y="480" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-43" value="display &quot;Hard Luck!&quot;" style="edgeLabel;html=1;align=center;verticalAlign=middle;resizable=0;points=[];dashed=1;" parent="gfIH29d5WbHKcfMr61hu-42" vertex="1" connectable="0">
+          <mxGeometry x="-0.0588" relative="1" as="geometry">
+            <mxPoint x="65" as="offset" />
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-37" value="&lt;font style=&quot;font-size: 12px;&quot;&gt;pass&lt;/font&gt;" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" source="gfIH29d5WbHKcfMr61hu-13" target="gfIH29d5WbHKcfMr61hu-36" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="330" y="400" as="sourcePoint" />
+            <mxPoint x="400" y="400" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="400" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-41" value="&lt;span style=&quot;font-size: 12px;&quot;&gt;fail&lt;/span&gt;" style="html=1;verticalAlign=bottom;endArrow=open;curved=0;rounded=0;endFill=0;" parent="1" edge="1">
+          <mxGeometry width="80" relative="1" as="geometry">
+            <mxPoint x="325" y="480" as="sourcePoint" />
+            <mxPoint x="715" y="480" as="targetPoint" />
+            <Array as="points">
+              <mxPoint x="360" y="480" />
+            </Array>
+          </mxGeometry>
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-48" value="[loads new questions and processes answers]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="120" y="200" width="160" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-50" value="[pass quiz]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="150" y="406" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="gfIH29d5WbHKcfMr61hu-51" value="[else]" style="text;html=1;whiteSpace=wrap;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;rounded=0;" parent="1" vertex="1">
+          <mxGeometry x="140" y="444" width="60" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="IVnh9Iteo8npzrPEP70y-1" value="&lt;p&gt;&lt;font style=&quot;font-size: 14px;&quot;&gt;This UML sequence diagram illustrates the step-by-step interaction between a student, database, quiz system, and results display during a SkillForge quiz session. It captures key processes like question retrieval, answer processing, score calculation, and conditional feedback based on pass/fail outcomes. Such diagrams are vital in system design because they clarify dynamic behavior, ensure smooth coordination between components, and help developers visualize user flow and logic branching.&lt;/font&gt;&lt;/p&gt;" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="600" width="800" height="120" as="geometry" />
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
